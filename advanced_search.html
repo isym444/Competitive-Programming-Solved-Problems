@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <style>
+            .content {
+                /* background-color:antiquewhite; */
+                /* width: 272px; */
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #rcorners2 {
+                border-radius: 25px;
+                border: 1px solid #dfe1e5;
+                padding: 20px;
+                padding-bottom: 20px;
+                width: 482px;
+                height: 34px;
+            }
+            .container {
+                padding-top: 20px;
+                max-width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <a href="index.html">Google search</a>
+              </div>
+              <div class="col-sm">
+                <a href="images.html">Images</a>
+              </div>
+              <div class="col-sm">
+                <a href="advanced_search.html">Advanced search</a>
+              </div>
+            </div>
+          </div>
+        <div class="content">
+            <!-- <img src="googlelogo_color_272x92dp.png" height = "92" style="padding-top:109px" width="272"> -->
+            <img src="googlelogo_color_272x92dp.png" height = "92" style="padding-top:109px" class="img-fluid" alt="google logo">
+            <form action="https://google.com/search">
+                <input id="rcorners2" type="text" name="q">
+                <br>
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <input type="submit" value="Google Search">
+                      </div>
+                      <div class="col">
+                        <input type="submit" value="I'm feeling lucky">
+                      </div>
+                    </div>
+                  </div>
+            </form>
+    </div>
+    </body>
+</html>
